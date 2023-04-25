@@ -1,16 +1,9 @@
-import { createGlobalStyle } from 'styled-components';
-import { reset } from 'styled-reset';
-
+import './variables.css';
 import Loading from './pages/Loading';
-
-const GlobalStyle = createGlobalStyle`
-  ${reset}
-`;
 
 const App = () => {
   return (
     <>
-      <GlobalStyle />
       <Loading />
     </>
   );

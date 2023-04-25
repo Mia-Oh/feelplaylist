@@ -1,7 +1,6 @@
 # 필레이리스트
-<br />
 
-### 🍀 dependencies
+### 🎵 dependencies
 	1. redux
 	2. dotenv
 	3. react-icons
