@@ -1,9 +1,17 @@
-import { Counter } from './components/counter';
+import { createGlobalStyle } from 'styled-components';
+import { reset } from 'styled-reset';
+
+import Loading from './pages/Loading';
+
+const GlobalStyle = createGlobalStyle`
+  ${reset}
+`;
 
 const App = () => {
   return (
     <>
-      <Counter />
+      <GlobalStyle />
+      <Loading />
     </>
   );
 };
