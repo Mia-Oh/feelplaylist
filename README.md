@@ -3,9 +3,9 @@
 
 ### 🍀 dependencies
 	1. redux
-  2. dotenv
-  3. react-icons
-  4. styled-components
+	2. dotenv
+	3. react-icons
+	4. styled-components
 
 ## 🖥️ Commit  Message  
 
