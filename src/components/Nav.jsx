@@ -1,7 +1,10 @@
+import { Link } from 'react-router-dom';
+
 const Nav = () => {
   return (
     <>
-      <p>네비게이션 바</p>
+      <Link to="/login">로그인</Link>
+      <Link to="/">Home</Link>
     </>
   );
 };

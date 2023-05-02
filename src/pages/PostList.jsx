@@ -1,10 +1,9 @@
-import Loading from '../components/Loading';
-
+import Header from '../components/Header';
 const PostList = () => {
   return (
     <>
-      <Loading />
-      <p>게시글 리스트 페이지</p>
+      <Header />
+      {/* <p>게시글 리스트 페이지</p> */}
     </>
   );
 };
